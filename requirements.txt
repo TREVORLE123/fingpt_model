@@ -1,7 +1,5 @@
 fastapi
-uvicorn[standard]
-pydantic
-# later, when you integrate real FinGPT, you'll add:
-#torch
-#transformers
-#fingpt (if packaged) or your cloned repo deps
+uvicorn
+requests
+python-dotenv
+httpx
